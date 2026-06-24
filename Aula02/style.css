@@ -11,8 +11,10 @@ a:visited{
 }
 
 a:focus{
-  border: 2px
+  border: 10px solid red;
 }
 
-a:first-child{
-  
+li:first-child{
+  font-weight: bolder;
+}
+
