@@ -38,7 +38,7 @@ input[type="email"]:valid{
 input[type="email"]:invalid{
   
 }
-input[type="checkbox"]:checked{
+label:has(input[type="checkbox"]:checked){
   color: purple;
 }
 li:not(:first-child){
