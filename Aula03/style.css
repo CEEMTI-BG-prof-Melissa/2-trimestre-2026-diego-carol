@@ -1,0 +1,26 @@
+h1::before{
+  content: "💀";
+}
+P::after{
+    content:"😎";
+}
+.bio::first-letter{
+    color:blue;
+    font-size:20px;
+}
+P::first-line{
+    font-weight:bold;
+    font-style: italic;
+}
+body::selection{
+    background-color:lightpink;
+    color: white;
+}
+input::placeholder {
+    font-style:italic;
+    color:lightgrey;
+}
+li::marker{
+    color:yellow;
+    font-size:50px;
+}
